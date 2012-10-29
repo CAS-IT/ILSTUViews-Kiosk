@@ -394,6 +394,15 @@ package com.civildebatewall {
 
 		
 		// Colors
+		
+		/*
+		@no-color-default: #bf0e0c;
+		@no-color-light: #cc0f0d;
+		@no-color-extralight: #e8110f;
+		@no-color-dark: #3f0504;
+
+		*/
+		
 		public static const COLOR_RED_SELECTION:uint = ColorUtil.rgb(255, 26, 23);
 		
 		public static const COLOR_YES_EXTRA_LIGHT:uint = ColorUtil.rgb(185, 229, 250); //Utilities.color(109, 207, 246);
@@ -405,13 +414,13 @@ package com.civildebatewall {
 		public static const COLOR_YES_DISABLED:uint = ColorUtil.rgb(34, 63, 110); 
 		public static const COLOR_YES_HIGHLIGHT:uint = COLOR_YES_DISABLED; // TBD		
 	
-		public static const COLOR_NO_EXTRA_LIGHT:uint = ColorUtil.rgb(251, 200, 180); //Utilities.color(247, 150, 121);
-		public static const COLOR_NO_LIGHT:uint = ColorUtil.rgb(255, 90, 0); // TODO medium and light are identical in the design template!
-		public static const COLOR_NO_MEDIUM:uint = ColorUtil.rgb(255, 75, 0); // TODO medium and light are identical in the designtemplate!
-		public static const COLOR_NO_DARK:uint = ColorUtil.rgb(255, 60, 0);
+		public static const COLOR_NO_EXTRA_LIGHT:uint = ColorUtil.rgb(232, 17, 15); //Utilities.color(247, 150, 121); *
+		public static const COLOR_NO_LIGHT:uint = ColorUtil.rgb(204, 15, 13); // TODO medium and light are identical in the design template! **
+		public static const COLOR_NO_MEDIUM:uint = ColorUtil.rgb(191, 14, 12); // TODO medium and light are identical in the designtemplate **
+		public static const COLOR_NO_DARK:uint = ColorUtil.rgb(191, 14, 12); // **
 		public static const COLOR_NO_OVERLAY:uint = ColorUtil.rgb(255, 60, 0);
 		public static const COLOR_NO_WATERMARK:uint = ColorUtil.rgb(255, 242, 235);
-		public static const COLOR_NO_DISABLED:uint = ColorUtil.rgb(140, 41, 4);		
+		public static const COLOR_NO_DISABLED:uint = ColorUtil.rgb(191, 14, 12);		
 		public static const COLOR_NO_HIGHLIGHT:uint = COLOR_NO_DISABLED; // TBD		
 
 		public static const COLOR_GRAY_2:uint = ColorUtil.rgb(248, 248, 248); // ?% K

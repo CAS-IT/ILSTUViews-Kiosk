@@ -206,7 +206,7 @@ package com.civildebatewall {
 		}
 		
 		public function setView(view:Function, overrideLast:Function = null):void {
-			if (view == activeView) {
+			if (view == activeView && getViewName(view) != "photoBooth") {
 				logger.warn("Already on view " + getViewName(activeView) + ", no need to change");			
 			}
 			else {

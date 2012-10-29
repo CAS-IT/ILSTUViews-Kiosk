@@ -1,6 +1,6 @@
 echo Running CDW Build script...
 
-set WORKSPACE=%HOMEPATH%\Desktop\CDWBuild\lp-cdw\air_projects
+set WORKSPACE=%HOMEPATH%\desktop2\CDWBuild\lp-cdw\air_projects
 
 "C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\FlashBuilderC.exe" ^
 	--launcher.suppressErrors ^

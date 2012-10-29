@@ -201,6 +201,7 @@ package com.civildebatewall.kiosk.camera {
 			logger.error("SLR timed out after " + (getTimer() - takePhotoStartTime) + "ms");
 			timeoutTimer.stop();
 			timedOut = true;
+			CivilDebateWall.state.setView(CivilDebateWall.kiosk.photoBoothView);
 			this.dispatchEvent(new Event(CameraFeedEvent.CAMERA_TIMEOUT_EVENT));
 		}
 
