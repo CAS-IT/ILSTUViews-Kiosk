@@ -234,8 +234,8 @@ package com.civildebatewall.kiosk.core {
 			addChild(bigButton);
 			
 			statsButton = new StatsButton();
-			statsButton.setDefaultTweenIn(1, {x: 838, y: 796});
-			statsButton.setDefaultTweenOut(1, {x: Alignment.OFF_STAGE_RIGHT, y: 796});
+			statsButton.setDefaultTweenIn(1, {x: 150, y: 1475});
+			statsButton.setDefaultTweenOut(1, {x: Alignment.OFF_STAGE_RIGHT, y: 1475});
 			addChild(statsButton);			
 			
 			debateStripUnderlay = new BlockBase({width: 1080, height: 141, backgroundColor: 0xffffff});

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <application xmlns="http://ns.adobe.com/air/application/3.1">
 	<id>net.localprojects.CivilDebateWall</id>
-	<filename>Civil Debate Wall</filename>
-	<name>The Great Civil Debate Wall</name>
+	<filename>ILSTU Views</filename>
+	<name>ILSTU Views</name>
 	<versionNumber>0.1</versionNumber>
-	<versionLabel>Beta</versionLabel>
-	<description>Front-end kiosk software for The Great Civil Debate Wall.</description>
+	<versionLabel>0.2 Release</versionLabel>
+	<description>Front-end kiosk software for ILSTU Views.</description>
 
 	<initialWindow>
 		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
@@ -23,7 +23,7 @@
 		<autoOrients>false</autoOrients>
 	</initialWindow>
 	
-	<supportedProfiles>extendedDesktop</supportedProfiles>
+	<supportedProfiles>extendedDesktop desktop</supportedProfiles>
 	
 	<icon>
 		<image128x128>assets/graphics/appIcon.png</image128x128>
